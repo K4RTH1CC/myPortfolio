@@ -23,7 +23,7 @@ function TypingAnimation({ words }) {
           setCurrentWordIndex((currentWordIndex + 1) % words.length);
         }
       }
-    }, 150);
+    }, 75);
 
     return () => clearInterval(intervalId);
   }, [currentWordIndex, currentWord, words, isDeleting]);
