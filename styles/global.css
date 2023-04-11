@@ -722,12 +722,20 @@ video {
   padding-top: 1rem;
 }
 
+.text-center{
+  text-align: center;
+}
+
 .font-bebas{
   font-family: Bebas Neue;
 }
 
 .font-header{
   font-family: Tilt Prism;
+}
+
+.font-mono{
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 .text-2xl{

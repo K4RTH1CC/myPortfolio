@@ -6,6 +6,8 @@ function ImgCarousel() {
   const slides = [
     {
       url: 'https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2620&q=80',
+      label: 'Image-1',
+      desc: 'This is image 1 description',
     },
     {
       url: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80',
@@ -47,7 +49,10 @@ function ImgCarousel() {
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
         className='w-full h-full rounded-2xl bg-center bg-cover duration-500'
       >
-      <div className='bg-black opacity-60 rounded-2xl w-1/3 h-full float-right'></div>
+      <div className='bg-black opacity-60 rounded-2xl w-1/3 h-full float-right'>
+        <span className='text-white text-2xl text-center font-mono'>{slides[currentIndex].label}</span>
+        <p className='text-white text-m text-center font-mono'>{slides[currentIndex].desc}</p>
+      </div>
       </div>
       {/* Left Arrow */}
       <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
