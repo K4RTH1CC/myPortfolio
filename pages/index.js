@@ -34,6 +34,7 @@ function HomePage() {
                 src: "/ATM-simulator.png",
                 label: "ATM simulator in C",
                 desc: "This is one of my First projects, It is an ATM simulator written in C Programming with a single line text file to store previous data.",
+                link: "https://github.com/K4RTH1CC/ATM-Simulator-In-C",
               },
             ]}
           />

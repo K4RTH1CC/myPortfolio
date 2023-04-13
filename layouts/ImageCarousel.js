@@ -1,6 +1,7 @@
 import React, { Fragment, useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
+import Link from "next/link";
 
 function ImgCarousel({ props }) {
   const slides = props;
@@ -26,11 +27,11 @@ function ImgCarousel({ props }) {
   return (
     <Fragment>
       <div className="max-w-[1400px] h-[800px] w-10/12 m-auto py-16 px-4 relative group">
-        <div
+        <Link href={slides[currentIndex].link} passHref={true} target="_blank"><div
           style={{ backgroundImage: `url(${slides[currentIndex].src})` }}
           className="w-full h-full max-h-[800] rounded-t-2xl bg-center bg-cover duration-500"
         >
-        </div>
+        </div></Link>
         <div className="bg-black opacity-60 rounded-b-2xl max-w-[1400px] w-full m-auto px-4">
             <p className="text-gray-600 text-2xl text-center font-extrabold m-auto p-2">
               {slides[currentIndex].label}
