@@ -36,6 +36,12 @@ function HomePage() {
                 desc: "This is one of my First projects, It is an ATM simulator written in C Programming with a single line text file to store previous data.",
                 link: "https://github.com/K4RTH1CC/ATM-Simulator-In-C",
               },
+              {
+                src:"/book-recommender.png",
+                label: "Book Recommender",
+                desc: "This is a Book Recommender system made using Collaborative Filtering of User Reviews and flask front end, It also uses the GeoLocator API in python to display the places that this book is popular",
+                link: "https://github.com/K4RTH1CC/book-recommender-collaborative-filtering-flaskUI",
+              }
             ]}
           />
         </div>
