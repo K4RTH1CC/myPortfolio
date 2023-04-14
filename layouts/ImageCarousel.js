@@ -28,8 +28,8 @@ function ImgCarousel({ props }) {
   return (
     <Fragment>
       <Head>
-        {slides.map((slide, slideIndex) => (
-          <link rel="preload" href={slide.src} as="image" />
+        {slides.map((slide,slideIndex) => (
+          <link rel="preload" href={slide.src} as="image" key={slideIndex}/>
         ))}
       </Head>
       <div className="max-w-[1400px] h-[800px] w-10/12 m-auto py-16 px-4 relative group">
