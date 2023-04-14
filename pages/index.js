@@ -41,6 +41,12 @@ function HomePage() {
                 label: "Book Recommender",
                 desc: "This is a Book Recommender system made using Collaborative Filtering of User Reviews and flask front end, It also uses the GeoLocator API in python to display the places that this book is popular",
                 link: "https://github.com/K4RTH1CC/book-recommender-collaborative-filtering-flaskUI",
+              },
+              {
+                src:"/kafka-replica.png",
+                label:"Kafka Replica with Flask",
+                desc:"This is a replica of kafka made with 3 brokers, a zookeeper and variable amount of consumers and producers. Made with flask, socket programming and request handling",
+                link:"https://github.com/K4RTH1CC/Kafka-replica-flask",
               }
             ]}
           />
