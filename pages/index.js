@@ -53,6 +53,12 @@ function HomePage() {
                 label:"NFL CRUD application with Flask",
                 desc:"An NFL database made in mariadb and connected to a flask application to Handle CRUD operations.",
                 link:"https://github.com/K4RTH1CC/NFL-sql-mini-project-flask",
+              },
+              {
+                src:"/portfolio-code.png",
+                label:"This Website",
+                desc:"This is my Website made using NextJS and TailwindCSS",
+                link:"https://github.com/K4RTH1CC/myPortfolio",
               }
             ]}
           />
