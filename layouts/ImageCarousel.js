@@ -1,7 +1,9 @@
 import React, { Fragment, useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
-import { RxDotFilled } from "react-icons/rx";
+import { RxDotFilled,RxDot } from "react-icons/rx";
 import Link from "next/link";
+
+var dot; 
 
 function ImgCarousel({ props }) {
   const slides = props;
@@ -49,13 +51,14 @@ function ImgCarousel({ props }) {
           <BsChevronCompactRight onClick={nextSlide} size={30} />
         </div>
         <div className="flex top-4 justify-center py-2">
-          {slides.map((slide, slideIndex) => (
+          {slides.map((slide, slideIndex) => 
+            (
             <div
               key={slideIndex}
               onClick={() => goToSlide(slideIndex)}
               className="text-2xl cursor-pointer"
             >
-              <RxDotFilled />
+              {(currentIndex==slideIndex)?<RxDotFilled />:<RxDot />}
             </div>
           ))}
         </div>
