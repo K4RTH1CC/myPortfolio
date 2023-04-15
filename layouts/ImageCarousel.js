@@ -32,7 +32,7 @@ function ImgCarousel({ props }) {
           <link rel="preload" href={slide.src} as="image" key={slideIndex}/>
         ))}
       </Head>
-      <div className="max-w-[1400px] h-[800px] w-10/12 m-auto py-16 px-4 relative group">
+      <div className="max-w-[1400px] h-[800px] w-10/12 m-auto py-16 px-4 relative group z-10">
         <Link href={slides[currentIndex].link} passHref={true} target="_blank">
           <div
             style={{ backgroundImage: `url(${slides[currentIndex].src})` }}

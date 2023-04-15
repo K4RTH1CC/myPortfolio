@@ -523,6 +523,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.fixed{
+  position: fixed;
+}
+
 .absolute{
   position: absolute;
 }
@@ -549,6 +553,14 @@ video {
 
 .top-\[50\%\]{
   top: 50%;
+}
+
+.z-10{
+  z-index: 10;
+}
+
+.z-50{
+  z-index: 50;
 }
 
 .m-auto{
