@@ -9,7 +9,7 @@ function HomePage() {
       <TopNavLayout />
 
       <div id="main" className="bg-slate-400 w-screen h-screen">
-        <div id="HOME" className="pt-20 pl-60">
+        <div id="HOME" className="pl-4 pt-20 sm:pl-60">
           <br />
           <br />
           <br />

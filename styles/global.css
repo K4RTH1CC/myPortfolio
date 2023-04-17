@@ -756,8 +756,8 @@ video {
   padding-left: 2.5rem;
 }
 
-.pl-60{
-  padding-left: 15rem;
+.pl-4{
+  padding-left: 1rem;
 }
 
 .pr-10{
@@ -852,4 +852,10 @@ video {
 
 .group:hover .group-hover\:block{
   display: block;
+}
+
+@media (min-width: 640px){
+  .sm\:pl-60{
+    padding-left: 15rem;
+  }
 }
