@@ -596,8 +596,8 @@ video {
   display: none;
 }
 
-.h-\[800px\]{
-  height: 800px;
+.h-\[\]{
+  height: ;
 }
 
 .h-full{
@@ -855,6 +855,10 @@ video {
 }
 
 @media (min-width: 640px){
+  .sm\:h-\[800px\]{
+    height: 800px;
+  }
+
   .sm\:pl-60{
     padding-left: 15rem;
   }

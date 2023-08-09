@@ -63,6 +63,13 @@ function HomePage() {
             ]}
           />
         </div>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <div className="bg-slate-400 w-screen h-screen">
+          <span className="text-m ml-6 text-black m-auto"> Hey this part is still a work in progress due to me not knowing what to write about myself but I will fill it eventually</span>
+        </div>
       </div>
     </Fragment>
   );
